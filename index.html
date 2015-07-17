@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href='http://fonts.useso.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css' />
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="css/noscript.css" />
+    </noscript>
+    <script type="text/javascript" src="js/modernizr.custom.72835.js"></script>
+    <title>关于我</title>
+    <style>
+        p.lead,p.well{
+            text-align: center;
+            margin:15px;
+        }
+        ._panel{
+            width:355px;
+            margin:0 auto;
+            text-align: center;
+        }
+        p.btn-success{
+            height:40px;
+            width:150px;
+            font-size: 16px;
+            line-height:40px;
+            margin:0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="container">
+
+
+    <!--circle img start-->
+    <div class="section">
+        <a href="#" id="circle" class="ec-circle">
+        </a>
+    </div>
+    </div>
+    <!--circle img END-->
+    <div class="container">
+    <h1 style="text-align: center;font-size: 20px;">尹吉凯</h1>
+    <p class="lead">山东建筑大学 ，大四学生一枚，热衷前端</p>
+    <div class="_panel panel panel-primary">
+        <div class="panel-heading" style="margin-bottom: 5px;">专业技能</div>
+       <!--numberBar start-->
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #d35c0c;"><span>HTML5</span></div>
+            <div class="skillbar-bar" style="background: #d35c0c;"></div>
+            <div class="skill-bar-percent">30%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="40%">
+            <div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+            <div class="skillbar-bar" style="background: #2980b9;"></div>
+            <div class="skill-bar-percent">40%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="50%">
+            <div class="skillbar-title" style="background: rgba(189, 2, 11, 0.71);"><span>jQuery</span></div>
+            <div class="skillbar-bar" style="background: rgba(189, 2, 11, 0.71);"></div>
+            <div class="skill-bar-percent">50%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="55%">
+            <div class="skillbar-title" style="background: #46465e;"><span>Javascript</span></div>
+            <div class="skillbar-bar" style="background:  #46465e;"></div>
+            <div class="skill-bar-percent">55%</div>
+        </div> <!-- End Skill Bar -->
+
+        <div class="skillbar clearfix " data-percent="60%">
+            <div class="skillbar-title" style="background: rgba(255, 114, 118, 0.60);"><span>Photoshop</span></div>
+            <div class="skillbar-bar" style="background: rgba(255, 114, 118, 0.60);"></div>
+            <div class="skill-bar-percent">60%</div>
+        </div> <!-- End Skill Bar -->
+
+
+
+        <div class="skillbar clearfix " data-percent="30%">
+            <div class="skillbar-title" style="background: #124e8c;"><span>Node等</span></div>
+            <div class="skillbar-bar" style="background: #124e8c;"></div>
+            <div class="skill-bar-percent">70%</div>
+        </div> <!-- End Skill Bar -->
+        <!--numberBar end-->
+
+    </div>
+<p class="well well-sm">很高兴能成为【梦之队】的一员，希望在接下来的日子里大家一起努力，共同进步，实现我们的前端梦想，让这个夏天不留遗憾！</p>
+    <p class="btn-success">FIGHTING!</p>
+    </div>
+</div>
+
+</div>
+
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script><!--number Bar-->
+
+
+<script type="text/javascript" src="js/jquery.circlemouse.js"></script><!--circle img -->
+<script type="text/javascript">
+    $(function() {
+
+        $('#circle').circlemouse({
+            onMouseEnter	: function( el ) {
+
+                el.addClass('ec-circle-hover');
+
+            },
+            onMouseLeave	: function( el ) {
+
+                el.removeClass('ec-circle-hover');
+
+            },
+            onClick			: function( el ) {
+
+                alert('clicked');
+
+            }
+        });
+
+    });
+</script>
+</body>
+</html>
