@@ -99,11 +99,11 @@
 </div>
 
 </div>
-<span id="qqLoginBtn"></span>
+<a href='https://graph.qq.com/oauth2.0/authorize?client_id=101245370&response_type=token&scope=all&redirect_uri=http%3A%2F%2Fjackyin888.github.io%2Faboutme%2Ftest.html'>qq登录</a>
 <script type="text/javascript">
-    QC.Login({
+   /* QC.Login({
        btnId:"qqLoginBtn"    //插入按钮的节点id
-});
+});*/
 QC.api("get_user_info")
 	//指定接口访问成功的接收函数，s为成功返回Response对象
 	.success(function(s){
